@@ -12,14 +12,14 @@ author: Author
 
 menu:
   home: Home
-  archives: Archives
-  categories: Categories
+  archives: CV
+  categories: Contact
   tags: Tags
-  about: About
+  about: Research
   search: Search
-  schedule: Research
-  sitemap: CV
-  commonweal: Contact
+  schedule: schedule
+  sitemap: sitemap
+  commonweal: commonweal
 
 sidebar:
   overview: Overview
