@@ -119,9 +119,9 @@ index_with_subtitle: false
 menu:
   home: /
  #categories: /categories/
-  about: /about/research.html
-  archives: /archives/cv.html
-  tags: /tags/contact.md
+  about: research.html
+  archives: archives/cv.html
+  tags: /404.html
  # tags: /
  #sitemap: /sitemap.xml
  #commonweal: /404.html
