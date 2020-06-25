@@ -21,6 +21,7 @@
     line-height: inherit;
     border-bottom: 1px solid $menu-link-border;
     transition-property: border-color;
+    color: #36648B !important;
     @include the-transition();
 
     @at-root %menu-a-hover { border-bottom-color: $menu-link-hover-border; }
