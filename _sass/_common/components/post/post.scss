@@ -1,3 +1,8 @@
+.post-body a {
+  color: #36648B;
+  font-weight: bold;
+}
+
 .post-body {
   font-family: $font-family-posts;
   @include mobile() {
