@@ -1,6 +1,13 @@
 .post-body a {
   color: #36648B;
   font-weight: bold;
+  border-bottom: none;
+  border-bottom: 1px solid #36648B;
+  &:hover {
+    color: #63B8FF;
+    border-bottom: none;
+    border-bottom: 1px solid #63B8FF;
+  }
 }
 
 .post-body {
