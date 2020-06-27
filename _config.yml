@@ -640,8 +640,8 @@ pace_theme: pace-theme-minimal
 # Canvas-nest
 canvas_nest: true
 onmobile:
-enable: false;
-count: 50;
+enable: false
+
   
 # three_waves
 three_waves: false
