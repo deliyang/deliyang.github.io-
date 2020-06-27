@@ -33,3 +33,15 @@
    -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
    -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
   }
+
+span#inline-grey {
+display:inline;
+padding:.2em .6em .3em;
+line-height:1;
+color:#fff;
+text-align:center;
+white-space:nowrap;
+vertical-align:baseline;
+border-radius:0;
+background-color: #F5F5F5!important;
+}
