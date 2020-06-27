@@ -605,6 +605,8 @@ local_search:
 # Alias: {% extlink text url "title" %}
 exturl: false
 
+passage_end_tag:
+enable: true
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
@@ -641,7 +643,9 @@ pace_theme: pace-theme-minimal
 canvas_nest: true
 onmobile:
 enable: false
-  
+custom_file_path:
+footer: /_sass/_data/footer.swig
+
 # three_waves
 three_waves: false
 
@@ -655,9 +659,6 @@ canvas_sphere: false
 # Canvas-ribbon
 canvas_ribbon: false
 
-# Define custom file paths.
-custom_file_path:
-footer: /_sass/_data/footer.swig
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
@@ -718,11 +719,13 @@ vendors:
   # https://github.com/hustcc/canvas-nest.js
   canvas_nest:
   enable: true
-  onmobile: false
   color: "176,196,222"
   opacity: 0.7
   zIndex: -2
   count: 50
+  onmobile: 
+  enable: false
+  
   
   # three
   three:
