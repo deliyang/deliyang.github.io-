@@ -638,7 +638,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest:
 enable: true
   onmobile: false
   color: "176,196,222"
